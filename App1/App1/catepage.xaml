@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="App1.catepage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Margin="402,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="44" Width="177" FontSize="36">
+    		<Run Text="Category"/>
+    		<LineBreak/>
+    		<Run/>
+        </TextBlock>
+        <CheckBox x:Name="ch" Content="DASA" HorizontalAlignment="Left" Margin="402,286,0,0" VerticalAlignment="Top" FontSize="22" />
+        <CheckBox Content="AIEEE&#xA;" HorizontalAlignment="Left" Margin="402,356,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <CheckBox Content="PG" HorizontalAlignment="Left" Margin="402,426,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="675,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="170" FontSize="22">
+    		<Run Text="Gender"/>
+    		<LineBreak/>
+    		<Run/>
+        </TextBlock>
+        <CheckBox Content="Male&#xA;" HorizontalAlignment="Left" Margin="639,326,0,0" VerticalAlignment="Top" Width="144" FontSize="22"/>
+        <CheckBox Content="Female&#xA;" HorizontalAlignment="Left" Margin="639,395,0,0" VerticalAlignment="Top" Width="144" FontSize="22"/>
+
+    </Grid>
+</Page>
